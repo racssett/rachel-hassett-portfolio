@@ -1,0 +1,60 @@
+.navLinksContainer {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  align-items: center;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Serif Display', serif;
+  font-size: 28px;
+}
+
+.nameContainer > h3 {
+  margin: 10px 13px;
+  display: block;
+}
+
+.name > a {
+  color: #DF9AC5;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.link > a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutProjectsContainer,
+.resumeContactContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 17px;
+  color: black;
+}
+
+@media only screen and (min-width: 640px) {
+
+  .nameContainer {
+    display: none;
+  }
+
+  .namesContainer > h3{
+    display: block;
+    font-size: 27px;
+    padding: 0px;
+    margin: 0px 10px;
+  }
+
+  .namesContainer {
+    margin: 6px 0px;
+    font-family: 'Noto Serif Display', serif;
+  }
+
+}

@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom"
-import projects from "../../data/projects"
 import hyphenateWords from "../../utilities/hyphenateWords"
 
 
 const ProjectCard = ({ project }) => {
-  // const path = hyphenateWords(project.title)
+  const path = hyphenateWords(project.title)
   return (
       <div>
         <img 
@@ -15,11 +14,11 @@ const ProjectCard = ({ project }) => {
           <h3>
             {project.title}
           </h3>
-          {/* <Link to={path} > */}
+          <Link to={path} >
             <button>
               Learn more
             </button>
-          {/* </Link> */}
+          </Link>
         </section>
       </div>
   )

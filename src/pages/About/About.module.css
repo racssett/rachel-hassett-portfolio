@@ -1,0 +1,35 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about > img {
+  width: 300px;
+}
+
+.aboutText {
+  display: flex;
+  background-color: #94D8D0;
+  height: fit-content;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 640px) {
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aboutText {
+    height: 352px;
+    width: 300px;
+  }
+
+}
