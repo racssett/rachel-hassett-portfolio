@@ -26,10 +26,34 @@
     justify-content: center;
     align-items: center;
   }
+
+  .about > img {
+    width: 310px;
+  }
   
   .aboutText {
-    height: 352px;
-    width: 300px;
+    height: 363px;
+    width: 310px;
+  }
+
+}
+
+@media only screen and (min-width: 940px) {
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about > img {
+    width: 375px;
+  }
+  
+  .aboutText {
+    height: 434px;
+    width: 375px;
   }
 
 }

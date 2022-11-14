@@ -5,7 +5,7 @@ function About() {
     <>
       <h1 className={styles.about}>About</h1>
       <div className={styles.about}>
-        <img src="/images/Rachel Hassett Picture.jpg" alt="Rachel Hassett Headshot" />
+        <img src="/images/Rachel Hassett Picture.jpg" alt="Rachel Hassett" />
         <div className={styles.aboutText}>
           <h3>Small blurb</h3>
         </div>

@@ -3,7 +3,7 @@ function Resume() {
     <div>
       <h1>Resume</h1>
       <a href="/images/Rachel Hassett Resume.pdf" download>
-        <p> here </p>
+        <img src="/images/resume.png" alt="Rachel Hassett Resume" />
       </a>
     </div>
   )
