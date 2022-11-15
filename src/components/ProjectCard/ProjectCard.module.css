@@ -1,0 +1,27 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 24px 10px;
+}
+
+.project img {
+  width: 340px;
+  height: 420px;
+}
+
+.project h3 {
+  font-family: 'Noto Serif Display', serif;
+}
+
+.project button {
+  margin-bottom: 18px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  background-color: #E67B54;
+  color: white;
+  border: 2px solid #E67B54;
+  border-radius: 5px;
+  padding: 5px;
+}

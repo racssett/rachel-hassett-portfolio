@@ -3,11 +3,11 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About/About'
 import Contact from './pages/Contact'
-import Resume from './pages/Resume'
+import Resume from './pages/Resume/Resume'
 import Projects from './components/ProjectList/ProjectList'
 import NavBar from './components/NavBar/NavBar'
 import projects from './data/projects'
-import ProjectDetails from './pages/ProjectDetails'
+import ProjectDetails from './pages/ProjectDetails/ProjectDetails'
 
 
 function App() {

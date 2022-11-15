@@ -1,0 +1,13 @@
+.resume {
+  width: 90%;
+  border: 1px solid black;
+  box-shadow: rgba(246, 162, 131, 1) 27px 27px;
+}
+
+@media only screen and (min-width: 640px) {
+
+  .resume {
+    width: 500px;
+  }
+
+}

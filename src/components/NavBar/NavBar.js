@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav className={styles.nav}>
+    <nav>
       <div className={styles.nameContainer} >
         <h3 className={styles.name} hidden><NavLink to='/'>Rachel</NavLink></h3>
         <h3 className={styles.name} hidden><NavLink to='/'>Hassett</NavLink></h3>

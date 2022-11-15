@@ -7,7 +7,8 @@ function About() {
       <div className={styles.about}>
         <img src="/images/Rachel Hassett Picture.jpg" alt="Rachel Hassett" />
         <div className={styles.aboutText}>
-          <h3>Small blurb</h3>
+          <h2>Hello!</h2>
+          <p> I'm Rachel, a Full-stack web developer with a proclivity for creative problem solving. </p>
         </div>
       </div>
     </>

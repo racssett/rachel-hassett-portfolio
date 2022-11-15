@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
 import hyphenateWords from "../../utilities/hyphenateWords"
-
+import style from './ProjectCard.module.css'
 
 const ProjectCard = ({ project }) => {
   const path = hyphenateWords(project.title)
   return (
-      <div>
+      <div className={style.project}>
         <img 
           src={project.image} 
           alt={project.title}
