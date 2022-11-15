@@ -15,17 +15,17 @@ const projects = [
   },
   {
     title: "Werk",
-    description: "",
+    description: "Werk is an interactive web application designed for job seekers in the tech world. This app offers a variety of features to help job seekers stay organized in one space.",
     image: "/images/Werk.png",
     repositoryLink: "https://github.com/ljchu87/werk-front-end",
     deploymentLink:"https://werk-smarter.netlify.app/"
   },
   {
     title: "Fish Tank",
-    description: "",
+    description: "Fish Tank is an app where you can collect fish, feed them, and give their tanks enrichments.",
     image: "/images/Fish Tank.png",
     repositoryLink: "https://github.com/racssett/fish-tank",
-    deploymentLink: ""
+    deploymentLink: "https://the-fish-tank.herokuapp.com/"
   }
 ]
 

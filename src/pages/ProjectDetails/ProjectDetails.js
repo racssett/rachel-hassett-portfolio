@@ -11,16 +11,24 @@ function ProjectDetails() {
     <div className={styles.details}>
       <h1>{project.title}</h1>
       <img 
-          src={project.image} 
-          alt={project.title}
-        />
+        src={project.image} 
+        alt={project.title}
+      />
       <p>{project.description}</p>
-      <a href={project.repositoryLink} target="_blank" rel="noreferrer">
-        <button>Github</button>
-      </a>
-      <a href={project.deploymentLink} target="_blank" rel="noreferrer">
-        <button>App</button>
-      </a>
+      <div className={styles.icon}>
+        <a href={project.repositoryLink} target="_blank" rel="noreferrer">
+          <img 
+            src="/images/github-logo.png"
+            alt='github'
+          />
+        </a>
+        <a href={project.deploymentLink} target="_blank" rel="noreferrer" >
+          <img 
+            src="/images/website-icon.webp"
+            alt='app'
+          />
+        </a>
+      </div>
     </div>
   )
 }
