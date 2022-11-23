@@ -10,7 +10,7 @@ function NavBar() {
       </div>
       <div className={styles.navLinksContainer}>
         <div className={styles.aboutProjectsContainer}>
-          <p className={styles.about}><NavLink to='/about'>About</NavLink></p>
+          <p className={styles.about}><NavLink to='/about' id="about">About</NavLink></p>
           <p className={styles.projects}><NavLink to='/projects'>Projects</NavLink></p>
         </div>
         <div className={styles.namesContainer}>

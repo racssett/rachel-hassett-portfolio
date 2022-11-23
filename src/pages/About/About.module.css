@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 35px;
 }
 
 .about > img {
@@ -18,17 +19,21 @@
   font-family: 'Barlow', sans-serif;
   justify-content: center;
   align-items: center;
+  padding: 10px 0;
 }
 
 .aboutText h2 {
-  font-size: 23.4px;
+  margin: 0;
+  padding: 0;
+  margin-top: 6px;
+  font-size: 17px;
 }
 
 .aboutText p {
-  max-width: 90%;
-  padding-bottom: 10px;
-  margin-top: 0px;
-  font-size: 16px;
+  max-width: 93%;
+  padding-bottom: 0;
+  margin-top: 0;
+  font-size: 15px;
 }
 
 @media only screen and (min-width: 640px) {
@@ -41,21 +46,25 @@
   }
 
   .about h2 {
-    font-size: 26px;
+    font-size: 17px;
+    margin-top: 3px;
   }
 
   .about p {
-    max-width: 86%;
-    font-size: 17.5px;
+    max-width: 86.5%;
+    font-size: 14px;
+    margin-top: 5px;
   }
 
   .about > img {
-    width: 310px;
+    width: 300px;
+    height: 360px;
   }
   
   .aboutText {
-    height: 363.4px;
-    width: 310px;
+    height: 360px;
+    width: 300px;
+    padding: 0;
   }
 
 }
@@ -71,11 +80,23 @@
 
   .about > img {
     width: 375px;
+    height: 439.59px;
   }
   
   .aboutText {
     height: 439.59px;
     width: 375px;
+  }
+
+  .about h2 {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+
+  .about p {
+    max-width: 85%;
+    font-size: 16px;
+    margin-top: 5px;
   }
 
 }
