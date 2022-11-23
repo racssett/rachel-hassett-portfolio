@@ -44,18 +44,22 @@
 
 .about > a:hover {
   color: #94D8D0;
+  text-decoration: underline;
 }
 
 .projects > a:hover {
   color: #E67B54;
+  text-decoration: underline;
 }
 
 .resume > a:hover {
   color: rgba(178, 96, 160, 1);
+  text-decoration: underline;
 }
 
 .contact > a:hover {
-  color: #DF9AC5;
+  color: #EDCB1B;
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 640px) {

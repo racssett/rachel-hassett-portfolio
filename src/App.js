@@ -8,6 +8,7 @@ import Projects from './components/ProjectList/ProjectList'
 import NavBar from './components/NavBar/NavBar'
 import projects from './data/projects'
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path='/projects' element={<Projects projects={projects} />} />
           <Route path='projects/:projectDetails' element={<ProjectDetails />}/>
         </Routes>
+        <Footer />
       </div>
     </main>
   );

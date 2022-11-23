@@ -2,7 +2,7 @@ import styles from './About.module.css'
 
 function About() {
   return (
-    <>
+    <section>
       <h1 className={styles.about}>About</h1>
       <div className={styles.about}>
         <img src="/images/Rachel Hassett Picture.jpg" alt="Rachel Hassett" />
@@ -11,7 +11,7 @@ function About() {
           <p> I'm Rachel, a Full-stack web developer with a proclivity for creative problem solving. </p>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 
