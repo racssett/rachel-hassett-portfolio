@@ -81,3 +81,14 @@
   }
 
 }
+
+@media only screen and (min-width: 940px) {
+
+  .namesContainer > h3{
+    display: block;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px 10px;
+  }
+
+}

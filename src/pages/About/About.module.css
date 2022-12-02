@@ -3,11 +3,43 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 35px;
 }
 
 .about > img {
   width: 300px;
+}
+
+.greetingsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  width: 300px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.hello1 {
+  color: #94D8D0;
+}
+
+.hello2 {
+  color: #E67B54;
+}
+
+.hello3 {
+  color: rgba(178, 96, 160, 1);
+}
+
+.hello4 {
+  color: #EDCB1B;
 }
 
 .aboutText {
@@ -45,6 +77,11 @@
     align-items: center;
   }
 
+  .greeting {
+    width: 600px;
+    font-size: 22px;
+  }
+
   .about h2 {
     font-size: 17px;
     margin-top: 3px;
@@ -76,6 +113,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+
+  .greeting {
+    width: 748px;
+    font-size: 24px;
   }
 
   .about > img {

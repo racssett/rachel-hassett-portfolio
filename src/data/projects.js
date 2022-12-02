@@ -20,13 +20,13 @@ const projects = [
     repositoryLink: "https://github.com/ljchu87/werk-front-end",
     deploymentLink:"https://werk-smarter.netlify.app/"
   },
-  {
-    title: "Fish Tank",
-    description: "Fish Tank is an app where you can collect fish, feed them, and give their tanks enrichments.",
-    image: "/images/Fish Tank.png",
-    repositoryLink: "https://github.com/racssett/fish-tank",
-    deploymentLink: "https://the-fish-tank.herokuapp.com/"
-  }
+  // {
+  //   title: "Fish Tank",
+  //   description: "Fish Tank is an app where you can collect fish, feed them, and give their tanks enrichments.",
+  //   image: "/images/Fish Tank.png",
+  //   repositoryLink: "https://github.com/racssett/fish-tank",
+  //   deploymentLink: "https://the-fish-tank.herokuapp.com/"
+  // }
 ]
 
 export default projects

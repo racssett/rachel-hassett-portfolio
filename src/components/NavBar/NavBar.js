@@ -22,6 +22,7 @@ function NavBar() {
           <p className={styles.contact}><NavLink to='/contact'>Contact</NavLink></p>
         </div>
       </div>
+      <br></br>
     </nav>
   )
 }
