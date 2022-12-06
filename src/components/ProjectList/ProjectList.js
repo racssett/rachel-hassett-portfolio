@@ -3,7 +3,7 @@ import style from './ProjectList.module.css'
 
 function Projects(props) {
   return (
-    <div>
+    <div id="projects">
       <h1>Projects</h1>
       <div className={style.projects}>
         {props.projects.map(project => (

@@ -2,7 +2,7 @@ import styles from './Contact.module.css'
 
 function Contact() {
   return (
-    <section>
+    <section id="contact">
       <div className={styles.contact}>
         <h1>Contact</h1>
         <h3>Let's Chat!</h3>
