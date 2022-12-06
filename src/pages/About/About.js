@@ -3,7 +3,6 @@ import styles from './About.module.css'
 function About() {
   return (
     <section id="about">
-      <h1>About</h1>
       <div className={styles.greetingsContainer}>
         <div className={styles.greeting}>
           <h3 className={styles.hello1}>你好!</h3>
