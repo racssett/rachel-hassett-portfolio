@@ -1,17 +1,8 @@
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
-  height: 119px;
-}
-
 .navLinksContainer {
   display: flex;
   justify-content: space-around;
   text-decoration: none;
   align-items: center;
-  border-bottom: 1px solid black;
 }
 
 .nameContainer {
@@ -73,10 +64,6 @@ nav {
 
 @media only screen and (min-width: 640px) {
 
-  nav{
-    height: 87px;
-  }
-
   .nameContainer {
     display: none;
   }
@@ -96,10 +83,6 @@ nav {
 }
 
 @media only screen and (min-width: 940px) {
-
-  nav{
-    height: 95px;
-  }
 
   .namesContainer > h3{
     display: block;

@@ -12,7 +12,6 @@
 .greetingsContainer {
   display: flex;
   justify-content: center;
-  margin-top: 140px;
 }
 
 .greeting {
@@ -78,10 +77,6 @@
     align-items: center;
   }
 
-  .greetingsContainer{
-    margin-top: 120px;
-  }
-
   .greeting {
     width: 600px;
     font-size: 22px;
@@ -118,10 +113,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  }
-
-  .greetingsContainer{
-    margin-top: 130px;
   }
 
   .greeting {

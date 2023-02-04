@@ -11,10 +11,6 @@ function ProjectDetails() {
     <section>
       <div className={styles.details}>
         <h1>{project.title}</h1>
-        <img 
-          src={project.image} 
-          alt={project.title}
-        />
         <p>{project.description}</p>
         <div className={styles.icon}>
           <a href={project.repositoryLink} target="_blank" rel="noreferrer">
@@ -30,6 +26,11 @@ function ProjectDetails() {
             />
           </a>
         </div>
+        <img 
+          src={project.image} 
+          alt={project.title}
+        />
+
       </div>
     </section>
   )
